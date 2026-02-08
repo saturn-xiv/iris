@@ -1,2 +1,1 @@
-# irix
-An automated backup tools.
+# IRIS - An automated backup tools
