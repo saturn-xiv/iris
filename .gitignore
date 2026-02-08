@@ -1,0 +1,4 @@
+/include/iris/version.hpp
+/.vscode/
+/build/
+/tmp/
