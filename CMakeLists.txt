@@ -3,8 +3,8 @@ include(FetchContent)
 
 project(
   iris
-  VERSION 2025.12.15
-  DESCRIPTION "A collection of OPS tools."
+  VERSION 2026.2.8
+  DESCRIPTION "An automated backup tools."
   LANGUAGES CXX
 )
 
@@ -32,7 +32,7 @@ FetchContent_Declare(argparse
 
 FetchContent_Declare(spdlog
   GIT_REPOSITORY "https://github.com/gabime/spdlog.git"
-  GIT_TAG        "v1.16.0"
+  GIT_TAG        "v1.17.0"
 )
 
 FetchContent_Declare(tomlplusplus

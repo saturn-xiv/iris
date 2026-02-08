@@ -13,8 +13,8 @@ build_musl() {
     cmake --build $build_root
 }
 
-build_musl iris x86_64
-build_musl iris aarch64
+build_musl x86_64
+build_musl aarch64
 
 echo "done."
 exit 0
